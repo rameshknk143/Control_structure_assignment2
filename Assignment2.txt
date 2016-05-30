@@ -1,0 +1,17 @@
+package javademo;
+
+public class javademo1 {
+
+	public static void main(String[] args) {
+		int a = 1;
+		while (a <= 100){
+			
+			System.out.println(a);
+			a+=2;
+			if (a == 99){
+			break;
+			}
+		}
+	}
+
+}
